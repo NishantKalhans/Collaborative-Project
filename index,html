@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Investors</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .investor {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      border-radius: 5px;
+      padding: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .investor img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .investor p {
+      margin: 5px 0;
+    }
+
+    @media screen and (min-width: 1200px) {
+      .container {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      .container {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      .container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="investor">
+      <img src="Vijay_Shekhar_Sharma_Paytm_96f52579b8.png" alt="Investor 1">
+      <b><p>Vijay Shekhar Sharma</p></b>
+      <p>Founder & CEO</p>
+      <div><img class="logoimg" src="rsz_paytm_logo.jpg" alt="logoy"></div>
+    </div>
+    
+    <div class="investor">
+      <img src="Rectangle_427_637d69bb57.png" alt="Investor 2">
+      <b><p>Kunal Shah</p></b>
+      <p>Founder</p>
+      <div><img class="logoimg" src="cred.png" alt="logoy"></div>
+    </div>
+    
+    <div class="investor">
+        <img src="amrish_rau_pine_labs_144e5e587c.png" alt="Investor 3">
+        <b><p>Amrish Rau</p></b>
+        <p>CEO</p>
+        <div><img class="logoimg" src="rsz_pine_labs.png" alt="logoy"></div>
+    </div>
+
+    <div class="investor">
+        <img src="Sampad_swain_Instamojo_f12bf6341e.png" alt="Investor 4">
+        <b><p>Sampad Swain</p></b>
+        <p>Co-Founder & CEO</p>
+        <div><img class="logoimg" src="rsz_instamojo.jpg" alt="logoy"></div>
+    </div>
+      
+    <div class="investor">
+        <img src="Ankush_Sachdeva_Sharechat_4e44dbbe6b.png" alt="Investor 5">
+        <b><p>Ankush Sachdeva</p></b>
+        <p>Co-Founder & CEO</p>
+        <div><img class="logoimg" src="sharechat.png" alt="logoy"></div>
+    </div>
+      
+    <div class="investor">
+        <img src="bhanu_pratap_singh_sharechat_11fdd7b47a.png" alt="Investor 6">
+        <b><p>Bhanu Pratap Singh</p></b>
+        <p>Co-Founder & CTO</p>
+        <div><img class="logoimg" src="sharechat.png" alt="logoy"></div>
+    </div>
+    
+    <div class="investor">
+        <img src="farid_ahsan_sharechat_1251f28141.png" alt="Investor 7">
+        <b><p>Farid Ahsan</p></b>
+        <p>Co-Founder & COO</p>
+        <div><img class="logoimg" src="sharechat.png" alt="logoy"></div>
+    </div>
+      
+    <div class="investor">
+        <img src="Amit_Kumar_Agarwal_Nobroker_a8a279ad91.png" alt="Investor 8">
+        <b><p>Amit Kumar Agarwal</p></b>
+        <p>Founder & CEO</p>
+        <div><img class="logoimg" src="nobroker.png" alt="logoy"></div>
+    </div>
+      
+    <div class="investor">
+        <img src="Akhil_Gupta_Nobroker_539cd97f6c.png" alt="Investor 9">
+        <b><p>Akhil Gupta</p></b>
+        <p>Founder & CTO</p>
+        <div><img class="logoimg" src="nobroker.png" alt="logoy"></div>
+    </div>
+      
+    <div class="investor">
+        <img src="saurbh_garg_nobroker_c0c71cc431.png" alt="Investor 10">
+        <b><p>Saurabh Garg</p></b>
+        <p>Co-Founder & CBO</p>
+        <div><img class="logoimg" src="nobroker.png" alt="logoy"></div>
+    </div>
+      
+    <div class="investor">
+        <img src="Vipin_Pathak_Care24_acd02cd173.png" alt="Investor 11">
+        <b><p>Vipin Pathak</p></b>
+        <p>Co-Founder & CEO</p>
+        <div><img class="logoimg" src="rsz_1rsz_1rsz_2care24.jpg" alt="logoy"></div>
+      </div>
+    <div class="investor">
+        <img src="Ramakant_Sharma_livespace_0308e3627d.png" alt="Investor 12">
+        <b><p>Ramakant Sharma</p></b>
+        <p>Founder</p>
+        <div><img class="logoimg" src="rsz_livspace-new-logo-2023-02-900x.jpg" alt="logoy"></div>
+    </div>    
+  </div>
+</body>
+</html>
